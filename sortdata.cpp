@@ -43,13 +43,14 @@ public:
 
 int main()
 {
-    int dataSize = 100;
-    int maxNum = 200;
+    int dataSize = 20;
+    int maxNum = 50;
 
+    
     cout << "In-order data set." << endl;
     sortData inorder(dataSize, "inorder", maxNum);
     inorder.printData();
-    cout << endl << endl << endl;
+    cout << "/n/n/n";
 
      cout << "Reverse-order data set." << endl;
     sortData reverse(dataSize, "reverseorder", maxNum);
