@@ -1,3 +1,6 @@
+Data size = 20
+Max Number = 50
+
 In-order data set.
 0
 1
@@ -43,7 +46,6 @@ Reverse-order data set.
 32
 31
 30
-
 
 
 

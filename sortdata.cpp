@@ -46,16 +46,18 @@ int main()
     int dataSize = 20;
     int maxNum = 50;
 
-    
+    cout << "\nData size = 20" << endl;
+    cout << "Max Number = 50\n" << endl;
+
     cout << "In-order data set." << endl;
     sortData inorder(dataSize, "inorder", maxNum);
     inorder.printData();
-    cout << "/n/n/n";
+    cout << "\n\n\n";
 
      cout << "Reverse-order data set." << endl;
     sortData reverse(dataSize, "reverseorder", maxNum);
     reverse.printData();
-    cout << endl << endl << endl << endl;
+    cout << "\n\n\n";
 
     cout << "Random order data set." << endl;
     sortData random(dataSize, "random", maxNum);
